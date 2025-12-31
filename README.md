@@ -1,4 +1,4 @@
-# Culebrita (Snake Game)
+# The Culebrita (Snake) Game 
 
 ## Overview
 Culebrita is a classic snake game built in C# during my freshman year at Biola University. Guide the snake through a maze, eat food to grow, and avoid hazards like cacti and your own tail.
@@ -13,12 +13,19 @@ Culebrita is a classic snake game built in C# during my freshman year at Biola U
 - Start on the welcome screen, enter the maze, and collect food.
 - Game over occurs if you collide with yourself, a cactus, or press Q to exit.
 
-## How to Run (new repo layout)
-1) Clone the repo:
-	- HTTPS: `git clone https://github.com/Alejandromarchesini12/the-culebrita-game.git`
-2) Open `My-Game.sln` in Visual Studio (Windows).
-3) Build (Debug/Release) and run.
-4) Play using the controls above.
+## How to Run (concise)
+1) Clone: `git clone https://github.com/Alejandromarchesini12/the-culebrita-game.git`
+2) Open `My-Game.sln` in Visual Studio and build (Debug/Release).
+3) Run the built EXE and play.
+
+### Run from VS Code (no Visual Studio UI)
+- Install **Visual Studio Build Tools** (Desktop C++ workload) so `cl`/`msbuild` are available.
+- Install VS Code + the **C/C++ extension (ms-vscode.cpptools)**.
+- Open a **Developer PowerShell for VS** in the repo folder.
+- Build: `msbuild My-Game.sln /p:Configuration=Debug`
+- Run: `Debug\My-Game.exe` (or `Release\My-Game.exe`).
+
+Notes: This is a C++/Windows project that links `graphics.lib`; there are no `pip install` steps.
 
 ## Files of interest
 - My-Game.cpp, graphics.h, resource.h: core game and resources.
