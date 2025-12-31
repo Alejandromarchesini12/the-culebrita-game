@@ -1,0 +1,17 @@
+# Ignore build and IDE files
+Debug/
+.vs/
+*.exe
+*.ilk
+*.pdb
+*.obj
+*.log
+*.db
+*.suo
+*.tlog/
+*.idb
+*.user
+*.aps
+*.FileListAbsolute.txt
+*.ipch/
+*.recipe
