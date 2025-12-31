@@ -13,12 +13,15 @@ Culebrita is a classic snake game built in C# during my freshman year at Biola U
 - Start on the welcome screen, enter the maze, and collect food.
 - Game over occurs if you collide with yourself, a cactus, or press Q to exit.
 
-## How to Run (concise)
+## How to Run
+Since the games was created 4 years ago, it was created in Visual Studio (Windows). This section gives a quick guide how to run this game either in Visual Studio or in VS code. I hope you have fun playing!
+
+### Run from Visual Studio (Windows)
 1) Clone: `git clone https://github.com/Alejandromarchesini12/the-culebrita-game.git`
 2) Open `My-Game.sln` in Visual Studio and build (Debug/Release).
 3) Run the built EXE and play.
 
-### Run from VS Code (no Visual Studio UI)
+### Run from VS Code
 - Install **Visual Studio Build Tools** (Desktop C++ workload) so `cl`/`msbuild` are available.
 - Install VS Code + the **C/C++ extension (ms-vscode.cpptools)**.
 - Open a **Developer PowerShell for VS** in the repo folder.
